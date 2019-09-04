@@ -1,8 +1,15 @@
-# Temp
+# Temperature Network
+
+The temperature network is a network of temperature monitors.
+Each monitor has a name and will periodically take the temperature.
+
+You can subscribe to get temperature changes. If subscribed you
+will get periodic temperatures from our network.
 
 ## Subscription
 
-Subscribe your back-end by hitting the `/subscribe` route.
+Subscribe your back-end by hitting the
+`http://temp.alchemycodelab.io/subscribe` route.
 
 * `POST /subscribe` with
 
